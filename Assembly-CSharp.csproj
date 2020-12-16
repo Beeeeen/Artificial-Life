@@ -55,8 +55,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Object_AutoProduce.cs" />
+     <Compile Include="Assets\Produce_object.cs" />
      <Compile Include="Assets\control.cs" />
-     <Compile Include="Assets\game.cs" />
      <Compile Include="Assets\healthcontroller.cs" />
      <Compile Include="Assets\virus.cs" />
  <Reference Include="UnityEngine">
