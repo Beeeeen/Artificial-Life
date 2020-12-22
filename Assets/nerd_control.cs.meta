@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8134b9eb7bb5c4b43a46a0ce0c231695
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - slider: {instanceID: 0}
+  - pheromone: {instanceID: 0}
+  - ben: {fileID: 4916439041786133966, guid: 027a9c703f9e7c54bb1dcd2a17ca093f, type: 3}
+  - nerd: {instanceID: 0}
+  - tree: {fileID: 8079018868464428801, guid: 87e68bc7976505b44974d9d67d076ef7, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
