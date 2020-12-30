@@ -114,14 +114,14 @@ public class nerd_control : MonoBehaviour
 		
 		child.transform.rotation = Quaternion.Euler (0f, 0, 0);//don't rotate the health bar
     }
-	void OnCollisionEnter2D(Collision2D col)
+	void OnCollisionEnter2D(Collision2D col)//物體碰撞觸發
 	{
 		
 		if (col.gameObject.name == "virus(Clone)") //如果標籤是virus
 		{			
-			slider.value-=0.3f;	
-			with_virus+=1;
-			image.GetComponent<Image>().color=MyRed;
+			slider.value-=0.3f;	//扣血
+			with_virus+=1;//持續扣血 緩速
+			image.GetComponent<Image>().color=MyRed;//改變視野顏色
 			Destroy(col.gameObject); //消滅碰撞的物件
 		}
 		else if (col.gameObject.name == "Apple(Clone)") //如果標籤是apple

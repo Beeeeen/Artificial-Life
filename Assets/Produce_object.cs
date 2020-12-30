@@ -37,7 +37,7 @@ public class Produce_object : MonoBehaviour
         n+=1;
 		if(n%10==0)
 		{
-			produce("apple");
+			produce("apple");//my funtion to produce object at random position
 			produce("virus");
 			produce("kiwi");
 			produce("pineapple");
